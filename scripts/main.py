@@ -122,7 +122,7 @@ if __name__ == "__main__":
         try:
             maxDepth = int(sys.argv[2])
             if maxDepth < 2:
-                print('you stinky bozo the minimum depth is 2')
+                print('the minimum depth is 2')
                 correctInput = False
 
         except:
