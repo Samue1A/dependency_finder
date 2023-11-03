@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dependency_finder"
+version = "1"
+description = "finds the dependencies of a given function"
+authors = ["Your Name <you@example.com>"]
+license = "none"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core", "ast", "sys", "importlib"]
+build-backend = "poetry.core.masonry.api"
